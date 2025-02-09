@@ -7,7 +7,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  # Configuration options
-  region = var.region
-}
+#provider "aws" {
+  #region = "us-east-1"
+#}
